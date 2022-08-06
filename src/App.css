@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.blog-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(90, 213, 224);
+}
+
+.blog-container a {
+  text-decoration: none;
+  color: black;
+}
+
+.newPostHeader {
+  text-align: center;
+}
+
+.createPostContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: rgb(90, 213, 224);
+  text-align: center;
+}
